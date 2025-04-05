@@ -1,6 +1,6 @@
 # Description
 
-A simple RESTful API built with Express.js, Prisma, and PostgreSQL to manage a movies watch-list. (CRUD operations + filtering movies on offer).
+A simple RESTful API built with Express.js, Prisma, and PostgreSQL to manage a movies watch-list. (CRUD operations).
 
 ## Features 
 - Get all movies in the watch-list
