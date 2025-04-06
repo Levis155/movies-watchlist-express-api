@@ -2,7 +2,8 @@
 
 A simple RESTful API built with Express.js, Prisma, and PostgreSQL to manage a movies watch-list. (CRUD operations).
 
-## Features 
+## Features
+
 - Get all movies in the watch-list
 - Get a specific movie in the watch-list
 - Add a new movie into the watch-list
@@ -13,34 +14,35 @@ A simple RESTful API built with Express.js, Prisma, and PostgreSQL to manage a m
 
 1. Clone the Repository
 
-    ```bash
-    git clone https://github.com/Levis155/movies-watchlist-express-api.git
-    ```
+   ```bash
+   git clone https://github.com/Levis155/movies-watchlist-express-api.git
+   ```
 
 1. Configure your database
 
-    Create a .env file and add your PostgreSQL connection URL.
+   Create a .env file and add your PostgreSQL connection URL.
 
-    ```bash
-    DATABASE_URL="postgresql://user:password@localhost:5432/dbname?schema=public"
-    ```
+   ```bash
+   DATABASE_URL="postgresql://user:password@localhost:5432/dbname?schema=public"
+   ```
 
 1. Push the Prisma schema to your database
 
-    ```bash
-    npx prisma migrate dev --name migration_name
-    ```
+   ```bash
+   npx prisma migrate dev --name migration_name
+   ```
+
 1. Install nodemon
 
-    ```bash
-    npm i nodemon
-    ```
+   ```bash
+   npm i nodemon
+   ```
 
 1. Start the server
 
-    ```bash
-    nodemon index.js
-    ```
+   ```bash
+   nodemon server.js
+   ```
 
 1. Start using the API by making requests.
 
